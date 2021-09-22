@@ -1,5 +1,4 @@
 import './App.css';
-import { useEffect, useState } from 'react';
 import Countries from './components/Countries/Countries';
 import Header from './components/Header/Header';
 
