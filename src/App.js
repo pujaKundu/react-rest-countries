@@ -16,9 +16,7 @@ function Countries(){
     fetch('https://raw.githubusercontent.com/ProgrammingHero1/rest-countries-data/main/coutries.JSON?fbclid=IwAR319ZwBtmXSFpyopiOLRg_yiQPgTJLGE-hDnttaQvVC2ZNG1yi6cp15mRU')
     .then(res => res.json())
     .then(data => setCountries(data))
-    .catch(err => {
-      throw new Error(err)
-    })
+    
   },[])
   return (
     <div>
